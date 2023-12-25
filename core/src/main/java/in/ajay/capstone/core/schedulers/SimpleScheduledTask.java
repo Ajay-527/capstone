@@ -55,6 +55,7 @@ public class SimpleScheduledTask implements Runnable {
     @Override
     public void run() {
         logger.debug("SimpleScheduledTask is now running, myParameter='{}'", myParameter);
+        System.out.println("Welcome");
     }
 
     @Activate
